@@ -1,0 +1,43 @@
+{
+	"editor": {
+		"allAngles": false,
+		"singleTexture": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textures": {
+		"iron": "game:block/metal/ingot/iron",
+		"generic": "game:block/wood/planks/generic"
+	},
+	"elements": [
+		{
+			"name": "Handle",
+			"from": [ 4.0, 0.0, 8.0 ], 
+			"to": [ 9.0, 1.0, 10.0 ], 
+			"rotationOrigin": [ 4.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#generic", "uv": [ 0.0, 0.0, 5.0, 1.0 ] },
+				"east": { "texture": "#generic", "uv": [ 0.0, 0.0, 2.0, 1.0 ] },
+				"south": { "texture": "#generic", "uv": [ 0.0, 0.0, 5.0, 1.0 ] },
+				"west": { "texture": "#generic", "uv": [ 0.0, 0.0, 2.0, 1.0 ] },
+				"up": { "texture": "#generic", "uv": [ 0.0, 0.0, 5.0, 2.0 ] },
+				"down": { "texture": "#generic", "uv": [ 0.0, 0.0, 5.0, 2.0 ] }
+			},
+			"children": [
+				{
+					"name": "Blade",
+					"from": [ 5.0, 0.3, 0.2 ], 
+					"to": [ 10.0, 0.8, 1.8 ], 
+					"rotationOrigin": [ 5.0, 0.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#iron", "uv": [ 0.0, 0.0, 5.0, 0.5 ] },
+						"east": { "texture": "#iron", "uv": [ 0.0, 0.0, 1.5, 0.5 ] },
+						"south": { "texture": "#iron", "uv": [ 0.0, 0.0, 5.0, 0.5 ] },
+						"west": { "texture": "#iron", "uv": [ 0.0, 0.0, 1.5, 0.5 ] },
+						"up": { "texture": "#iron", "uv": [ 0.0, 0.0, 5.0, 1.5 ] },
+						"down": { "texture": "#iron", "uv": [ 0.0, 0.0, 5.0, 1.5 ] }
+					}
+				}
+			]
+		}
+	]}
